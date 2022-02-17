@@ -1,0 +1,4 @@
+This program is going to take an input number and return its square.
+
+FUNCTION square (number):
+  RETURN number * number
