@@ -1,4 +1,10 @@
 This program is going to take numbers as input and return the sum of their squares.
 
-FUNCTION square (num1, num2, ...):
-  RETURN (num1 * num1) + (num2 * num2)
+Set sum = 0
+
+FUNCTION square (inputs)
+  FOR (set i = 0, i < argumentslength, increment i)
+    sum += (inputs[i] * inputs[i])
+  
+  RETURN sum
+
