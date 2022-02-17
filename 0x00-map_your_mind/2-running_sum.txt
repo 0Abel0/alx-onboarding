@@ -1,0 +1,10 @@
+This program is going to take inputs from users and add it up until the user inputs a negative number.
+
+FUNCTION ()
+    Set sum = 0
+    Get input
+    WHILE input > 0
+        sum += input
+        Get input
+    
+    RETURN sum
