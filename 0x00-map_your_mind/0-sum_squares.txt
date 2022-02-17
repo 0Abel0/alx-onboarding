@@ -3,7 +3,7 @@ This program is going to take numbers as input and return the sum of their squar
 Set sum = 0
 
 FUNCTION square (inputs)
-  FOR (set i = 0, i < argumentslength, increment i)
+  FOR (set i = 0, i < inputslength, increment i)
     sum += (inputs[i] * inputs[i])
   
   RETURN sum
