@@ -1,0 +1,10 @@
+This program is going to take three numbers as input and return them in order.
+
+FUNCTION sort (nums)
+    nums.SORT(FUNCTION (a, b) {
+            return a - b
+        })
+    RETURN nums
+    
+
+
